@@ -1,0 +1,79 @@
+body{
+    background: url(assets/images/pozadina.jpg);
+    background-color: beige;
+}
+
+.uvod{
+    background: rgb(211, 211, 211, .8);
+    position: absolute;
+    font-size: 25px;
+    top: 30%;
+    left: 50%;
+    max-width: 400px;
+    max-height: 250px;
+    padding: 30px;
+    text-align: center;
+    margin-top: -125px;
+    margin-left: -200px;
+    border-radius: 10px;
+
+}
+
+.omeni{
+    background: rgb(211, 211, 211, .8);
+    position: absolute;
+    font-size: 25px;
+    top: 30%;
+    left: 15%;
+    max-width: 400px;
+    max-height: 250px;
+    padding: 30px;
+    text-align: center;
+    margin-top: -125px;
+    margin-left: -200px;
+    border-radius: 10px;
+
+}
+
+.nav{
+    background-color: grey;
+    overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    color: rgb(207, 150, 92);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    background-color:rgb(189, 180, 172);
+    color: rgb(177, 137, 102);
+}
+
+.nav a.active{
+background-color: rgb(207, 150, 92);
+color: rgb(179, 114, 58);
+}
+
+.media{
+    left: 50%;
+    font-size: 25px;
+  
+}
+
+.vektor{
+    background-color: rgb(220, 105, 32);
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.piksel{
+    background-color: rgb(34, 135, 185);
+    max-width: 550px;
+    border-radius: 10px;
+
+}
